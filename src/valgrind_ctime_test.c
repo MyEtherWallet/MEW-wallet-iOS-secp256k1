@@ -5,11 +5,11 @@
  **********************************************************************/
 
 #include <valgrind/memcheck.h>
-#include "include/secp256k1.h"
+#include "../include/secp256k1.h"
 #include "util.h"
 
 #if ENABLE_MODULE_ECDH
-# include "include/secp256k1_ecdh.h"
+# include "../include/secp256k1_ecdh.h"
 #endif
 
 int main(void) {
