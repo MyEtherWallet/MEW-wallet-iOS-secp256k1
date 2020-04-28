@@ -12,7 +12,7 @@
 #define USE_BASIC_CONFIG 1
 #include "basic-config.h"
 
-#include "../include/secp256k1.h"
+#include "include/secp256k1.h"
 #include "util.h"
 #include "field_impl.h"
 #include "scalar_impl.h"
